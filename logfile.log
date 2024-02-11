@@ -1,0 +1,4 @@
+Feb 11, 2024 1:52:35 PM Singleton.Example3.LogWriter writeLineToFile
+INFO: This is a test log message.
+Feb 11, 2024 1:52:35 PM Singleton.Example3.LogWriter writeLineToFile
+INFO: This is a test log message 2.
