@@ -4,7 +4,9 @@ public class Singleton {
 
     private static Singleton instance;
     private static int counter;
-    public Singleton(){}
+    public Singleton(){
+
+    }
 
     public static Singleton getInstance() {
         if (instance == null) {

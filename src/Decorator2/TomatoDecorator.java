@@ -1,11 +1,9 @@
 package Decorator2;
 
-public class TomatoDecorator implements Burger {
-
-    protected Burger burger;
+public class TomatoDecorator extends BurgerDecorator {
 
     public TomatoDecorator(Burger burger) {
-        this.burger = burger;
+        super(burger);
     }
 
     public String getDescription() {
