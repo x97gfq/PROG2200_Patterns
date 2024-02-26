@@ -1,4 +1,4 @@
-package Observer_2;
+package Observer_2.Deprecated;
 
 import java.util.Observable;
 import java.util.Observer;

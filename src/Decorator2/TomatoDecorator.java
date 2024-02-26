@@ -7,7 +7,7 @@ public class TomatoDecorator extends BurgerDecorator {
     }
 
     public String getDescription() {
-        return burger.getDescription() + ", lettuce";
+        return burger.getDescription() + ", tomato";
     }
 
     public double cost() {

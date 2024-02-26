@@ -6,6 +6,7 @@ public class CheeseDecorator implements Burger {
 
     public CheeseDecorator(Burger burger) {
         this.burger = burger;
+
     }
 
     public String getDescription() {

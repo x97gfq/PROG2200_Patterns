@@ -1,4 +1,4 @@
-package Observer_2;
+package Observer_2.Deprecated;
 
 public class Main {
     public static void main(String[] args) {
