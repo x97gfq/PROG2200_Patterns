@@ -1,6 +1,6 @@
 package Decorator2;
 
-public class CheeseBurger implements Burger {
+public class Hamburger implements Burger {
 
 
     @Override
