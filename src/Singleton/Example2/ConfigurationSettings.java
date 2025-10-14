@@ -1,6 +1,6 @@
 package Singleton.Example2;
 
-import org.ini4j.Ini;
+import org.ini4j.Ini; //download JAR file from https://ini4j.sourceforge.net/, created a .vscode/settings.json file
 import java.io.File;
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ public class ConfigurationSettings {
     private static Ini ini;
     private static ConfigurationSettings instance;
 
-    public ConfigurationSettings()
+    private ConfigurationSettings()
     {
         File fileToParse = new File("C:\\Repos\\PROG2200_Patterns\\src\\Singleton\\Example2\\sample.ini");
         try {
